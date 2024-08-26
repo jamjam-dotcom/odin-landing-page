@@ -1,5 +1,5 @@
 * {
-   /* border: 1px solid red; */
+    /* border: 1px solid red; */
 }
 
 body {
@@ -43,12 +43,20 @@ body {
     flex: 0 1 35%;
 }
 
+.header-button {
+    padding: 10px 30px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
 .header-two-right {
     flex: 0 1 35%;
 }
 
 .header-image {
- /*   border: 1px solid black; */
+    /*   border: 1px solid black; */
     flex: 0 1 50%;
     height: 100%;
     width: 100%;
@@ -61,7 +69,8 @@ body {
     color: #F9FAF8;
 }
 
-.hero-secondary-text, .header-link{
+.hero-secondary-text,
+.header-link {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -107,11 +116,59 @@ body {
 
 .main-three {
     flex: 1 1 33%;
-    min-height: 250px;
+    min-height: 280px;
+}
+
+.invite {
+    /*    border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    max-width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    /* Horizontally center the element */
+    margin-top: 50px;
+    justify-content: flex-start;
+    background-color: #3882f6;
+    border-radius: 12px;
+}
+
+.invite-left {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    text-align: left;
+    color: #F9FAF8;
+}
+
+.invite-left h2 {
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+
+.invite-left p {
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+
+.invite-right {
+    margin-right: 100px;
+
+}
+
+.button {
+    margin-top: 30px;
+    padding: 10px 30px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 3px solid white;
+    border-radius: 12px;
+    font-size: 30px;
 }
 
 footer {
     background-color: #1f2937;
     text-align: center;
-    color:#F9FAF8;
+    color: #F9FAF8;
 }
